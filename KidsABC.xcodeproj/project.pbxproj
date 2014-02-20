@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BA15552187B5BCF009EFDC7 /* nextlevel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA15551187B5BCF009EFDC7 /* nextlevel.png */; };
 		1BDC14361876064300554E34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDC14351876064300554E34 /* QuartzCore.framework */; };
 		1BDC14381876064300554E34 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDC14371876064300554E34 /* OpenGLES.framework */; };
 		1BDC143A1876064300554E34 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDC14391876064300554E34 /* OpenAL.framework */; };
@@ -141,9 +142,16 @@
 		1BDC15DC1876064500554E34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC15DB1876064500554E34 /* AppDelegate.m */; };
 		1BDC15DF1876064500554E34 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC15DE1876064500554E34 /* HelloWorldLayer.m */; };
 		1BDC15E21876064500554E34 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC15E11876064500554E34 /* IntroLayer.m */; };
+		1BDC15EB1876087100554E34 /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDC15E81876087100554E34 /* bear.jpg */; };
+		1BDC15EC1876087100554E34 /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDC15E91876087100554E34 /* tiger.jpg */; };
+		1BDC15ED1876087100554E34 /* ugle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDC15EA1876087100554E34 /* ugle.jpg */; };
+		1BDC15EF18760BB300554E34 /* arrow_left_brown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDC15EE18760BB300554E34 /* arrow_left_brown.jpg */; };
+		1BDC15F21876258600554E34 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC15F11876258600554E34 /* Animal.m */; };
+		1BEF5342187CB554008029CD /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF5341187CB554008029CD /* Label.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BA15551187B5BCF009EFDC7 /* nextlevel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextlevel.png; sourceTree = "<group>"; };
 		1BDC14321876064300554E34 /* KidsABC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsABC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDC14351876064300554E34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1BDC14371876064300554E34 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -425,6 +433,14 @@
 		1BDC15DE1876064500554E34 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		1BDC15E01876064500554E34 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		1BDC15E11876064500554E34 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		1BDC15E81876087100554E34 /* bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bear.jpg; path = ../../../Pictures/bear.jpg; sourceTree = "<group>"; };
+		1BDC15E91876087100554E34 /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tiger.jpg; path = ../../../Pictures/tiger.jpg; sourceTree = "<group>"; };
+		1BDC15EA1876087100554E34 /* ugle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ugle.jpg; path = ../../../Pictures/ugle.jpg; sourceTree = "<group>"; };
+		1BDC15EE18760BB300554E34 /* arrow_left_brown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arrow_left_brown.jpg; sourceTree = "<group>"; };
+		1BDC15F01876258600554E34 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		1BDC15F11876258600554E34 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		1BEF5340187CB554008029CD /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		1BEF5341187CB554008029CD /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,6 +501,7 @@
 		1BDC14491876064300554E34 /* KidsABC */ = {
 			isa = PBXGroup;
 			children = (
+				1BEF533F187CB513008029CD /* classes */,
 				1BDC15DA1876064500554E34 /* AppDelegate.h */,
 				1BDC15DB1876064500554E34 /* AppDelegate.m */,
 				1BDC15DD1876064500554E34 /* HelloWorldLayer.h */,
@@ -494,6 +511,8 @@
 				1BDC144A1876064300554E34 /* Resources */,
 				1BDC14621876064300554E34 /* libs */,
 				1BDC15D61876064500554E34 /* Supporting Files */,
+				1BDC15F01876258600554E34 /* Animal.h */,
+				1BDC15F11876258600554E34 /* Animal.m */,
 			);
 			path = KidsABC;
 			sourceTree = "<group>";
@@ -501,6 +520,11 @@
 		1BDC144A1876064300554E34 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1BA15551187B5BCF009EFDC7 /* nextlevel.png */,
+				1BDC15EE18760BB300554E34 /* arrow_left_brown.jpg */,
+				1BDC15E81876087100554E34 /* bear.jpg */,
+				1BDC15E91876087100554E34 /* tiger.jpg */,
+				1BDC15EA1876087100554E34 /* ugle.jpg */,
 				1BDC144B1876064300554E34 /* Default.png */,
 				1BDC144D1876064300554E34 /* Default@2x.png */,
 				1BDC144F1876064300554E34 /* Default-568h@2x.png */,
@@ -879,6 +903,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1BEF533F187CB513008029CD /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BEF5340187CB554008029CD /* Label.h */,
+				1BEF5341187CB554008029CD /* Label.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -931,10 +964,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BDC145C1876064300554E34 /* Icon.png in Resources */,
+				1BDC15ED1876087100554E34 /* ugle.jpg in Resources */,
 				1BDC15BA1876064500554E34 /* ChangeLog in Resources */,
+				1BDC15EB1876087100554E34 /* bear.jpg in Resources */,
+				1BDC15EC1876087100554E34 /* tiger.jpg in Resources */,
 				1BDC144E1876064300554E34 /* Default@2x.png in Resources */,
 				1BDC14581876064300554E34 /* Icon-Small.png in Resources */,
 				1BDC14541876064300554E34 /* Icon-72.png in Resources */,
+				1BA15552187B5BCF009EFDC7 /* nextlevel.png in Resources */,
 				1BDC144C1876064300554E34 /* Default.png in Resources */,
 				1BDC14561876064300554E34 /* Icon-Small-50.png in Resources */,
 				1BDC14611876064300554E34 /* iTunesArtwork in Resources */,
@@ -942,6 +979,7 @@
 				1BDC14521876064300554E34 /* Default-Landscape~ipad.png in Resources */,
 				1BDC14501876064300554E34 /* Default-568h@2x.png in Resources */,
 				1BDC145E1876064300554E34 /* Icon@2x.png in Resources */,
+				1BDC15EF18760BB300554E34 /* arrow_left_brown.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,6 +996,7 @@
 				1BDC15291876064400554E34 /* CCTileMapAtlas.m in Sources */,
 				1BDC152C1876064400554E34 /* CCTMXLayer.m in Sources */,
 				1BDC15C41876064500554E34 /* mat4.c in Sources */,
+				1BEF5342187CB554008029CD /* Label.m in Sources */,
 				1BDC14A01876064400554E34 /* ccDeprecated.m in Sources */,
 				1BDC155B1876064400554E34 /* CCDirectorMac.m in Sources */,
 				1BDC14B51876064400554E34 /* ccGLStateCache.m in Sources */,
@@ -970,6 +1009,7 @@
 				1BDC148A1876064400554E34 /* CCActionTween.m in Sources */,
 				1BDC14C11876064400554E34 /* CCLabelBMFont.m in Sources */,
 				1BDC156E1876064400554E34 /* ccCArray.m in Sources */,
+				1BDC15F21876258600554E34 /* Animal.m in Sources */,
 				1BDC15981876064500554E34 /* CDXMacOSXSupport.m in Sources */,
 				1BDC158C1876064500554E34 /* ZipUtils.m in Sources */,
 				1BDC147E1876064400554E34 /* CCActionManager.m in Sources */,
@@ -1169,6 +1209,7 @@
 				1BDC15E71876064500554E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
